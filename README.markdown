@@ -30,3 +30,10 @@ Run the middleman server
 ``` $ middleman server -h $IP -p $PORT ```
 
 Access the site by pointing the browser to ```https://<workspace>-<username>.c9.io/``` .
+
+## Deploy site to Heroku
+
+``` 
+$ heroku create
+$ git push heroku master
+```
