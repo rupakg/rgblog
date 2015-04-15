@@ -85,6 +85,8 @@ GEM
     padrino-support (0.12.5)
       activesupport (>= 3.1)
     rack (1.6.0)
+    rack-contrib (1.2.0)
+      rack (>= 0.9.1)
     rack-test (0.6.3)
       rack (>= 1.0)
     rb-fsevent (0.9.4)
@@ -120,3 +122,4 @@ DEPENDENCIES
   builder (~> 3.0)
   middleman (~> 3.3.10)
   middleman-blog (~> 3.5.3)
+  rack-contrib
