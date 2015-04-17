@@ -10,6 +10,11 @@ gem "builder", "~> 3.0"
 
 gem 'rack-contrib'
 
+# for design
+gem 'bitters'
+gem 'bourbon'
+gem 'neat'
+
 # group :development do
 #   gem 'middleman-livereload'
 # end
