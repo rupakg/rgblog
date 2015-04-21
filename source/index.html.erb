@@ -1,6 +1,6 @@
 ---
 pageable: true
-per_page: 5
+per_page: 2
 ---
 <ul>
   <% page_articles.each_with_index do |article, i| %>
@@ -14,7 +14,7 @@ per_page: 5
   <% end %>
 </ul>
 
-<% if paginate && num_pages > per_page %>
+<% if paginate && num_pages > 1 %>
   <p>Page <%= page_number %> of <%= num_pages %></p>
 
   <% if prev_page %>
