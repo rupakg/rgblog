@@ -27,3 +27,19 @@ ol {
 .small-column {
   @include span-columns(4 of 12);
 }
+
+.single-column {
+    @include span-columns(12 of 12);
+}
+
+.copyright {
+  float: left;
+  color: $dark-gray;
+  font-size: 0.8em;
+}
+
+.social-icons {
+  float: right;
+  color: $dark-gray;
+  font-size: 0.8em;
+}

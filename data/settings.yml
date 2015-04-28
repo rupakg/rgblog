@@ -1,0 +1,12 @@
+site:
+  domain: 'http://rupakganguly.com'
+  tracking_code: 'UA-XXXXXXXX'
+  tracking_view: 'rupakganguly.com'
+  tagline: "musings from moments in my life"
+  description: "Personal blog, views, opinions and commentary of Rupak Ganguly"
+  keywords: 'music, photography, poetry, writings, life, culture, family, relationships'
+  author: 'Rupak Ganguly'
+  copyright: 'Copyright &copy; 2015 Rupak Ganguly'
+
+contact:
+  email: 'me@rupakganguly.com'

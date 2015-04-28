@@ -1,7 +1,8 @@
 <nav>
   <ul>
     <li>
-      <%= link_to "Blog Title", "index.html", :class => 'blog-title' %>
+      <%= link_to "#{data.settings.site.author}", "index.html", :class => 'blog-title' %><br/>
+      <i><%= "#{data.settings.site.tagline}" %></i>
     </li>
   </ul>
 </nav>
